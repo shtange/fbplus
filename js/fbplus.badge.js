@@ -61,9 +61,6 @@ FBplus.prototype = {
           udb[i] = this.fblang[lang];
           udb['like'] = lang;
           break
-        default:
-          // udb[i] = b.getAttribute("data-" + i);
-          break
       }
     }
 
@@ -110,7 +107,6 @@ FBplus.prototype = {
               "img": {
                 "width": 80,
                 "height": 80,
-                // "src": fdb.picture.replace("_q.jpg", "_s.jpg")
                 "src": "https://graph.facebook.com/" + fdb.username + "/picture?width=80&height=80"
               }
             }
@@ -159,7 +155,6 @@ FBplus.prototype = {
       for (var e in elem) {
         div[t] = d.createElement("div");
         div[t].className = "page-" + t;
-
         if (typeof(elem[e]) === "object") {
           var item = elem[e];
           div[t][e] = d.createElement(e);
