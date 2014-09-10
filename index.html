@@ -2,20 +2,25 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2048</title>
+  <title>FBplus: modified facebook badge</title>
 
-  <link href="style/main.css" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Load css -->
+  <link rel="stylesheet" href="css/fbplus.badge.css">
 
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 </head>
 <body>
-  <div class="container">
-    Code 
-  </div>
+
+<!-- Place this tag where you want the widget to render -->
+<div id="FBplusBadge" data-width="240" data-href="https://facebook.com/youtube" data-rel="page" data-theme="light" data-lang="en"></div>
+
+<!-- Place this tag after the last widget tag -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'js/fbplus.badge.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
 </body>
 </html>
