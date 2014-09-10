@@ -67,8 +67,6 @@ FBplus.prototype = {
       }
     }
 
-    // console.log(udb);
-
     return udb;
   },
   getFacebookData: function() {
@@ -154,8 +152,6 @@ FBplus.prototype = {
           }
         }
       }
-    
-    // console.log(fdb.mission + "\n" + fdb.about);
 
     b.style.width = cw + "px";
     for (var t in tmpl) {
