@@ -4,13 +4,13 @@ Modified facebook badge
 ## Using
 Insert before the closing tag *head*:
 ```
-<!-- Load FBplus.badge css -->
+<!-- Include widget styles -->
 <link rel="stylesheet" href="css/fbplus.badge.css">
 ```
-before the closing tag *body*
+Insert widget code on your page
 ```
 <!-- Place this tag where you want the widget to render -->
-<div id="FBplusBadge" data-width="240" data-href="https://facebook.com/youtube" data-rel="page" data-theme="light" data-lang="en"></div>
+<div id="FBplusBadge" data-width="240" data-href="https://facebook.com/{page name}" data-rel="page" data-theme="light" data-lang="en"></div>
 
 <!-- Place this tag after the last widget tag -->
 <script type="text/javascript">
@@ -21,6 +21,7 @@ before the closing tag *body*
   })();
 </script>
 ```
+*see [demo](https://github.com/shtange/fbplus/tree/master/demo) as example*
 
 ## Options
 Options can be passed as a data attributes.
@@ -52,7 +53,7 @@ __NOTE:__ this list related to data attribute 'data-lang'.
 Google Chrome, Firefox, Safari, Opera, Internet Explorer 8+
 
 ## Demo
-[shtange.github.io/fbplus](http://shtange.github.io/fbplus/)
+Demo version here [shtange.github.io/fbplus](http://shtange.github.io/fbplus/)
 
 ## License
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
