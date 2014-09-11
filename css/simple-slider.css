@@ -1,0 +1,30 @@
+.slider {
+  width: 140px;
+  margin: 20px 7px 0 0 !important;
+}
+
+.slider > .dragger {
+  background: #ff5a3a;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  border: 1px solid #000000;
+  width: 12px;
+  height: 12px;
+}
+
+.slider > .dragger:hover {
+  background: #ff5a3a;
+}
+
+
+.slider > .track, .slider > .highlight-track {
+  background: #222222;
+  height: 2px;
+}
+
+.slider > .highlight-track {
+	background-color: #8DCA09;
+}
+

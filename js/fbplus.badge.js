@@ -204,6 +204,13 @@ errorHandler = function(e, msg) {
   console.error(e, "FBplus Badge: " + msg);
 }
 
+redrawFBplusBadge = function(page) {
+  var _badge = document.getElementById("FBplusBadge");
+  _badge.innerHTML = "";
+  _badge.setAttribute("data-href", "https://facebook.com/" + page);
+  FBPbadge.load();
+}
+
 var FBPbadge = new FBplus();
 FBPbadge.load();
 

@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -159,6 +159,10 @@ header ul a strong {
   color:#222;
 }
 
+header h1 {
+  margin-bottom: 0;
+}
+
 section {
   width:500px;
   float:right;
@@ -181,6 +185,37 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+input[name="data-href"] {
+  width: 120px;
+  border: 0;
+  border-bottom: 1px dashed #333333;
+  font-size: 16px;
+}
+
+#FBplusBadge {
+  margin-top: 20px !important;
+}
+#generate {
+  padding-left: 10px;
+  color: #ff5a3a;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tools {
+  margin: 10px 0;
+}
+.tools span  {
+  padding: 0 10px 0 0;
+  cursor: pointer;
+}
+.tools span:hover, .tools span.active {
+  color: #333333;
+}
+.tools span.active {
+  font-weight: bold;
 }
 
 @media print, screen and (max-width: 960px) {
