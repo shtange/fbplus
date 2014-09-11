@@ -1,14 +1,14 @@
-#FBplusBadge { width: 238px; background: #ffffff; border: 1px solid #dbdbdb; text-align: center; }
+#FBplusBadge { width: 238px; margin: 0; padding: 0; background: #ffffff; border: 1px solid #dbdbdb; text-align: center; }
 #FBplusBadge .page-cover { width: 100%; background-color: transparent; background-position: bottom center; background-repeat: no-repeat; background-size: cover; overflow: hidden; }
 #FBplusBadge .page-picture { width: 90px; margin: -45px auto 0; }
 #FBplusBadge .page-picture a { background: #ffffff; border: 1px solid #aaaaaa; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: block; overflow: hidden; position: relative; }
 #FBplusBadge .page-picture a img { border: 4px solid #ffffff; vertical-align: bottom; }
 #FBplusBadge .page-name { padding: 15px 10px 2px; }
-#FBplusBadge .page-name a { color: #333333; font: normal 1.4em/.8em Tahoma, sans-serif; text-decoration: none; }
+#FBplusBadge .page-name a { color: #333333; font: normal 22px/20px Tahoma, sans-serif !important; text-decoration: none; }
 #FBplusBadge .page-name a:hover, #fbplus-badge.dark .page-name a:hover { color: #4c66a4; }
-#FBplusBadge .page-link { color: #aaaaaa; font: normal .75em/.8em Tahoma, sans-serif; }
-#FBplusBadge .page-about { padding: 10px 5%; color: #737373; font: normal .8em/1.2em Tahoma, sans-serif; }
-#FBplusBadge .page-likes { margin: 0 auto 16px; padding: 0 20px; color: #aaaaaa; font: normal .7em/14px Tahoma, sans-serif; }
+#FBplusBadge .page-link { color: #aaaaaa; font: normal 12px/10px Tahoma, sans-serif !important; }
+#FBplusBadge .page-about { padding: 10px 5%; color: #737373; font: normal 13px/16px Tahoma, sans-serif !important; }
+#FBplusBadge .page-likes { margin: 0 auto 16px; padding: 0 20px; color: #aaaaaa; font: normal 11px/14px Tahoma, sans-serif !important; }
 #FBplusBadge .page-likes span { height: 14px; padding-left: 20px; background-repeat: no-repeat; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAD5SURBVHjahNIxS0JhFMZx7/VqKjQoiDQEZjQI0VC0uwQNfQrnPltbox9AcAkcBMEaRCkIEYUSTfs/8AwvIt4DP/Ry33M857xGmeNxgidc4ROv+NKLOCWxgTN08edCmbTELG4xRB9R+PJY4g3qeEMeOZxanLhqyUVUdYQKHjHGt5+V+IAfndHBZ8yxRBVFm+IFCyT+JX1eq5vEQ3cwQQvn6OHD1RUbzPy9hp3a2waD53xgECTth0ZZH1rOLuWK3tVlHLSi+EUZTVzuX4FD40WJt6m+V167ruDCxYa+joWLaB93Wp4e2igE/4yp21HBe7e+DcbQxvv/AgwA3Yo0F4jeMvcAAAAASUVORK5CYII=); }
 #FBplusBadge .page-button { width: 100%; height: auto; margin: 4px 0 14px; }
 #FBplusBadge .page-button iframe { width: 100px; height: 20px; padding: 5px; background: #4c69ba; background: -webkit-gradient(linear, center top, center bottom, from(#536fbe), to(#375098)); background: -webkit-linear-gradient(#536fbe, #375098); border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow: hidden; }
