@@ -75,7 +75,7 @@
             _ulng = $(this).text(),
             _lang = (_fblang[_ulng] && _fblang[_ulng].length > 0) ? _ulng : 'en',
             _href = $badge.attr("data-href"),
-            _uname = _href.substring(_href.lastIndexOf("/")+1)
+            _uname = _href.substring(_href.lastIndexOf("/")+1),
             _iframe = '<iframe class="' + _lang + '" src="http://www.facebook.com/plugins/like.php?href=https://facebook.com/' + _uname + '&width&layout=button&action=like&show_faces=false&share=false&height=35&locale=' + _fblang[_lang] + '" scrolling="no" frameborder="no" allowtransparency="true"></iframe>';
         if (!$(this).hasClass("active")) {
           $('.page-button').html(_iframe);
@@ -86,7 +86,12 @@
       });
 
       $('#generate').on('click', function() {
-        redrawFBplusBadge($('input[name="data-href"]').val());
+        var _href = $badge.attr("data-href"),
+            _uname = _href.substring(_href.lastIndexOf("/")+1),
+            _bname = $('input[name="data-href"]').val();
+        if (_bname.length > 0 && _uname != _bname) {
+          redrawFBplusBadge(_bname);
+        }
       });
     </script>
 
