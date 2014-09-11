@@ -9,7 +9,7 @@
   -moz-border-radius: 10px;
   border-radius: 10px;
 
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   width: 12px;
   height: 12px;
 }
@@ -20,8 +20,8 @@
 
 
 .slider > .track, .slider > .highlight-track {
-  background: #222222;
-  height: 2px;
+  background: #333333;
+  height: 1px;
 }
 
 .slider > .highlight-track {

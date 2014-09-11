@@ -57,7 +57,7 @@
       var $badge = $('#FBplusBadge');
 
       $("[data-slider]").bind("slider:ready slider:changed", function (event, data) {
-          $('.slider .nums').text(data.value);
+          $('.slider .nums').text(data.value + " px");
           $badge.css('width', data.value + 'px');
           $badge.attr("data-width", data.value);
       });
