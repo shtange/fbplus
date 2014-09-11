@@ -1,9 +1,9 @@
-FBplus.badge
-======
-
+## FBplus.badge
 Modified facebook badge
 
-## Using
+![alt text](https://github.com/shtange/fbplus/raw/master/img/screen.png "FBplus.badge screen")
+
+### Using
 Insert before the closing tag *head*:
 ```
 <!-- Load FBplus.badge css -->
@@ -24,19 +24,19 @@ before the closing tag *body*
 </script>
 ```
 
-## Options
+### Options
 Options can be passed as a data attributes.
 
 
 | Name | Type |	Default |	Description |
 | ---- |:----:|:-------:|:----------- |
 | data-width | string | 240px | value in the range of 160 - 420 pixels |
-| data-href | string | - | you can use full link on page or only name |
-| data-rel | string | page | currently widget is relevant only for pages |
+| data-href | string | --- | you can use full link on page or only name |
+| data-rel | string | page | currently widget is relevant only for facebook pages |
 | data-theme | string | light | accepts: 'light' or 'dark' |
-| data-lang | string | en |  list of all available values: 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ua' |
+| data-lang | string | en | available values: 'en', 'de', 'fr', 'it', 'es', 'pt', 'ru', 'ua' |
 
-## Languages
+### Languages
 __NOTE:__ this list related to data attribute 'data-lang'.
 
 | Abbr | Language |
@@ -50,10 +50,11 @@ __NOTE:__ this list related to data attribute 'data-lang'.
 | ru | Russian |
 | ua | Ukrainian |
 
-## Browser compability
+### Supported browsers
+Google Chrome, Firefox, Safari, Opera, Internet Explorer 8+
 
-## Demo
+### Demo
 [shtange.github.io/fbplus](http://shtange.github.io/fbplus/)
 
-## License
+### License
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
