@@ -1,5 +1,5 @@
 # FBplus.badge
-Modified facebook badge
+Modified facebook badge.
 
 ## Using
 Insert before the closing tag *head*:
@@ -7,7 +7,7 @@ Insert before the closing tag *head*:
 <!-- Include widget styles -->
 <link rel="stylesheet" href="css/fbplus.badge.css">
 ```
-Insert widget code on your page
+Insert widget code on your page:
 ```
 <!-- Place this tag where you want the widget to render -->
 <div id="FBplusBadge" data-width="240" data-href="https://facebook.com/{page name}" data-rel="page" data-theme="light" data-lang="en"></div>
@@ -21,7 +21,7 @@ Insert widget code on your page
   })();
 </script>
 ```
-*see [demo](https://github.com/shtange/fbplus/tree/master/demo) as example*
+*See [demo](https://github.com/shtange/fbplus/tree/master/demo) as example.*
 
 ## Options
 Options can be passed as a data attributes.
