@@ -32,6 +32,9 @@
         <div id="FBplusBadge" data-width="240" data-href="https://facebook.com/youtube" data-rel="page" data-theme="light" data-lang="en"></div>
         <script type="text/javascript">
           (function() {
+            var bd = document.getElementById('FBplusBadge');
+            var sh = sh = (window.location.hash && window.location.hash.length > 0) ? window.location.hash.substring(1) : 'youtube';
+            bd.setAttribute('data-href', 'https://facebook.com/' + sh);
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
             po.src = 'js/fbplus.badge.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
