@@ -33,8 +33,8 @@
         <script type="text/javascript">
           (function() {
             var bd = document.getElementById('FBplusBadge'), ip = document.getElementById('pgname');
-            var sh = (window.location.hash && window.location.hash.length > 0) ? window.location.hash.substring(1) : 'youtube';
-            bd.setAttribute('data-href', 'https://facebook.com/' + sh); ip.value = sh; bd.setAttribute('data-lang', 'ru');
+            var sh = (window.location.hash && window.location.hash.length > 0) ? window.location.hash.substring(1) : false;
+            if (sh) { bd.setAttribute('data-href', 'https://facebook.com/' + sh); ip.value = sh; bd.setAttribute('data-lang', 'ru'); }
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
             po.src = 'js/fbplus.badge.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
