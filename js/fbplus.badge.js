@@ -140,7 +140,7 @@ FBplus.prototype = {
           }
         };
 
-      if (this.browser.isIE() && this.browser.isIE() < 10 && fdb.cover.length > 0) {
+      if (this.browser.isIE() && this.browser.isIE() < 9 && fdb.cover.length > 0) {
         tmpl["cover"] = {
           "img": {
             "style": "width: " + (cw+ch) + "px !important; height: auto !important; margin-left: -" + (ch/2) + "px;",
