@@ -28,13 +28,13 @@
         </ul>
       </header>
       <section>
-        <div><label>facebook.com/ </label><input type="text" maxlength="24" name="data-href" value="youtube"><span id="generate">&raquo;</span></div>
+        <div><label>facebook.com/ </label><input id="pgname" type="text" maxlength="24" name="data-href" value="youtube"><span id="generate">&raquo;</span></div>
         <div id="FBplusBadge" data-width="240" data-href="https://facebook.com/youtube" data-rel="page" data-theme="light" data-lang="en"></div>
         <script type="text/javascript">
           (function() {
-            var bd = document.getElementById('FBplusBadge');
-            var sh = sh = (window.location.hash && window.location.hash.length > 0) ? window.location.hash.substring(1) : 'youtube';
-            bd.setAttribute('data-href', 'https://facebook.com/' + sh);
+            var bd = document.getElementById('FBplusBadge'), ip = document.getElementById('pgname');
+            var sh = (window.location.hash && window.location.hash.length > 0) ? window.location.hash.substring(1) : 'youtube';
+            bd.setAttribute('data-href', 'https://facebook.com/' + sh); ip.value = sh; bd.setAttribute('data-lang', 'ru');
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
             po.src = 'js/fbplus.badge.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
@@ -42,7 +42,17 @@
         </script>
         <div><input id="slider" type="text" value="240" data-slider="true" data-slider-range="160,420" data-slider-step="2"></div>
         <div class="tools theme"><span class="active">light</span><span>dark</span></div>
-        <div class="tools lang"><span class="active">en</span><span>de</span><span>fr</span><span>it</span><span>ru</span><span>ua</span></div>
+        <div class="tools lang">
+          <script>
+            var p = ['en', 'de', 'fr', 'it', 'ru', 'ua'], ca;
+            var l = document.getElementById('FBplusBadge').getAttribute('data-lang');
+            for (i in p) {
+              ca = (p[i] == l) ? 'class="active"': '';
+              document.write('<span ' + ca + '>' + p[i] + '</span>');
+            }
+          </script>
+        </div>
+        <!-- <div class="tools lang"><span class="active">en</span><span>de</span><span>fr</span><span>it</span><span>ru</span><span>ua</span></div> -->
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/shtange">shtange</a></p>
