@@ -1,5 +1,8 @@
 # FBplus.badge
-Modified facebook badge.
+Alternative facebook badge for pages.
+
+## Screenshots
+![alt text](https://raw.githubusercontent.com/shtange/fbplus/master/screend.jpg "FBplus.badge screenshots (dark theme)")
 
 ## Using
 Insert before the closing tag *head*:
