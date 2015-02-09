@@ -87,8 +87,6 @@ class FbPlusBadge extends WP_Widget {
         $instance['theme'] = (!empty($new_instance['theme'])) ? $new_instance['theme'] : 'light';
         $instance['lang'] = (!empty($new_instance['lang'])) ? $new_instance['lang'] : 'en';
 
-        // var_dump($instance); die();
-
         return $instance;
     }
 
