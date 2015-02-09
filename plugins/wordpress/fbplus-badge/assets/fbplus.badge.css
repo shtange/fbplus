@@ -1,4 +1,4 @@
-#FBplusBadge { width: 238px; margin: 0; padding: 0; background: #ffffff; border: 1px solid #dbdbdb; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: content-box; display: none;  }
+#FBplusBadge { width: 238px; margin: 0; padding: 0; background: #ffffff; border: 1px solid #dbdbdb; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: content-box; }
 #FBplusBadge .page-cover { width: 100%; max-height: 200px; background-color: transparent; background-position: bottom center; background-repeat: no-repeat; background-size: cover; overflow: hidden; }
 #FBplusBadge .page-picture { width: 90px; margin: -45px auto 0; }
 #FBplusBadge .page-picture a { background: #ffffff; border: 1px solid #aaaaaa; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: block; overflow: hidden; position: relative; }

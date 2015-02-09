@@ -1,8 +1,8 @@
 <?php
 
 /*
- * Plugin Name: FbPlus Widget
- * Plugin URI:  https://github.com/shtange/fbplus
+ * Plugin Name: FbPlus Badge
+ * Plugin URI:  https://github.com/shtange/fbplus/plugins/wordpress
  * Description: Alternative facebook badge for pages.
  * Version:     1.0
  * Author:      Yurii Shtanhei
@@ -12,14 +12,14 @@
  *
  */
 
-class FbPlusWidget extends WP_Widget {
+class FbPlusBadge extends WP_Widget {
 
     /**
      * Widget construction
      */
     function __construct() {
 
-        parent::__construct('FbPlusWidget', __('FbPlus Widget', 'fbplus'), array('classname' => 'fbplus-widget', 'description' => __('alternative facebook badge', 'fbplus')), array('width' => 400));
+        parent::__construct('FbPlusBadge', __('FbPlus Badge', 'fbplus'), array('classname' => 'fbplus-badge', 'description' => __('alternative facebook badge', 'fbplus')), array('width' => 400));
 
         $this->define_constants();
         $this->setup_actions();
@@ -31,7 +31,7 @@ class FbPlusWidget extends WP_Widget {
      */
     private function define_constants() {
 
-        define( 'FBPLUS_BASE_URL',   trailingslashit( plugins_url( 'fbplus-widget' ) ) );
+        define( 'FBPLUS_BASE_URL',   trailingslashit( plugins_url( 'fbplus-badge' ) ) );
         define( 'FBPLUS_ASSETS_URL', trailingslashit( FBPLUS_BASE_URL . 'assets' ) );
         define( 'FBPLUS_PATH',       plugin_dir_path( __FILE__ ) );
 
@@ -157,6 +157,6 @@ class FbPlusWidget extends WP_Widget {
  * Register the widget
  */
 function fbplus_widget_init() {
-    register_widget('FbPlusWidget');
+    register_widget('FbPlusBadge');
 }
 add_action('widgets_init', 'fbplus_widget_init');
