@@ -23,7 +23,6 @@ class FbPlusWidget extends WP_Widget {
 
         $this->define_constants();
         $this->setup_actions();
-        $this->setup_shortcode();
 
     }
 
@@ -65,51 +64,6 @@ class FbPlusWidget extends WP_Widget {
                     '</script>';
 
         print (!empty($instance['fbpage'])) ? $output : '';
-
-    }
-
-    /**
-     * Register the [fbplus-widget] shortcode.
-     */
-    private function setup_shortcode() {
-
-        add_shortcode( 'fbplus-widget', array( $this, 'register_shortcode' ) );
-
-    }
-
-    /**
-     * Shortcode used to display FbPlus widget
-     *
-     * @return string HTML output of the shortcode
-     */
-    public function register_shortcode( $atts ) {
-
-        extract( shortcode_atts( array(
-            'id' => false,
-            'restrict_to' => false
-        ), $atts, 'fbplus-widget' ) );
-
-        $output = $this->getWidgetHtml('google', 240, 'light', 'ua');
-
-        return $output;
-
-    }
-    
-    /**
-     * Widget html output
-     */
-    function getWidgetHtml($page, $width, $theme, $lang) {
-
-        $output =   '<div id="FBplusBadge" data-width="' . $width . '" data-href="https://facebook.com/' . $page . '" data-rel="page" data-theme="' . $theme . '" data-lang="' . $lang . '"></div>' .
-                    '<script type="text/javascript">' .
-                        '(function() {' .
-                        'var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;' .
-                        'po.src = "' . FBPLUS_ASSETS_URL . 'fbplus.badge.js";' .
-                        'var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);' .
-                        '})();' .
-                    '</script>';
-
-        return $output;
 
     }
 
