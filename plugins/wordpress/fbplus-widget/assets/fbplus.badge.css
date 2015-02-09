@@ -1,0 +1,30 @@
+#FBplusBadge { width: 238px; margin: 0; padding: 0; background: #ffffff; border: 1px solid #dbdbdb; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: content-box; display: none;  }
+#FBplusBadge .page-cover { width: 100%; max-height: 200px; background-color: transparent; background-position: bottom center; background-repeat: no-repeat; background-size: cover; overflow: hidden; }
+#FBplusBadge .page-picture { width: 90px; margin: -45px auto 0; }
+#FBplusBadge .page-picture a { background: #ffffff; border: 1px solid #aaaaaa; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: block; overflow: hidden; position: relative; }
+#FBplusBadge .page-picture a img { border: 4px solid #ffffff; vertical-align: bottom; }
+#FBplusBadge .page-name { padding: 15px 10px 2px; }
+#FBplusBadge .page-name a { color: #333333; font: normal 22px/20px Tahoma, sans-serif !important; text-decoration: none; }
+#FBplusBadge .page-name a:hover, #fbplus-badge.dark .page-name a:hover { color: #4c66a4; }
+#FBplusBadge .page-link { color: #aaaaaa; font: normal 12px/10px Tahoma, sans-serif !important; }
+#FBplusBadge .page-about { padding: 10px 5%; color: #737373; font: normal 13px/16px Tahoma, sans-serif !important; }
+#FBplusBadge .page-likes { margin: 0 auto 16px; padding: 0 20px; color: #aaaaaa; font: normal 11px/14px Tahoma, sans-serif !important; }
+#FBplusBadge .page-likes span { height: 14px; padding-left: 20px; background-repeat: no-repeat; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAD5SURBVHjahNIxS0JhFMZx7/VqKjQoiDQEZjQI0VC0uwQNfQrnPltbox9AcAkcBMEaRCkIEYUSTfs/8AwvIt4DP/Ry33M857xGmeNxgidc4ROv+NKLOCWxgTN08edCmbTELG4xRB9R+PJY4g3qeEMeOZxanLhqyUVUdYQKHjHGt5+V+IAfndHBZ8yxRBVFm+IFCyT+JX1eq5vEQ3cwQQvn6OHD1RUbzPy9hp3a2waD53xgECTth0ZZH1rOLuWK3tVlHLSi+EUZTVzuX4FD40WJt6m+V167ruDCxYa+joWLaB93Wp4e2igE/4yp21HBe7e+DcbQxvv/AgwA3Yo0F4jeMvcAAAAASUVORK5CYII=); }
+#FBplusBadge .page-button { width: 100%; height: auto; margin: 4px 0 14px; }
+#FBplusBadge .page-button iframe { width: 100px; height: 20px; padding: 5px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow: hidden; }
+#FBplusBadge .page-button iframe { background-color: #4c69ba; background-image: -webkit-gradient(linear, left top, left bottom, from(#536fbe), to(#375098)); background-image: -webkit-linear-gradient(top, #536fbe, #375098); background-image: -moz-linear-gradient(top, #536fbe, #375098); background-image: -ms-linear-gradient(top, #536fbe, #375098); background-image: -o-linear-gradient(top, #536fbe, #375098); background-image: linear-gradient(to bottom, #536fbe, #375098); filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#536fbe', endColorstr='#375098'); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#536fbe', endColorstr='#375098')"; }
+#FBplusBadge .page-button iframe.ru { width: 80px; padding: 5px 7px 5px 8px; }
+#FBplusBadge .page-button iframe.fr { width: 60px; padding: 5px 7px 5px 8px; }
+#FBplusBadge .page-button iframe.it { width: 74px; padding: 5px 5px 5px 10px; }
+#FBplusBadge .page-button iframe.es { width: 80px; padding: 5px 5px 5px 10px; }
+#FBplusBadge .page-button iframe.pt { width: 65px; padding: 5px 5px 5px 10px; }
+#FBplusBadge .page-button iframe.de { width: 84px; padding: 5px 10px; }
+#FBplusBadge .page-button iframe.en { width: 60px; padding: 5px 0px 5px 10px; }
+#FBplusBadge .page-button iframe:hover { background-image: -webkit-gradient(linear, left top, left bottom, from(#5b7bd4), to(#4a66b5)); background-image: -webkit-linear-gradient(top, #5b7bd4, #4a66b5); background-image: -moz-linear-gradient(top, #5b7bd4, #4a66b5); background-image: -ms-linear-gradient(top, #5b7bd4, #4a66b5); background-image: -o-linear-gradient(top, #5b7bd4, #4a66b5); background-image: linear-gradient(to bottom, #5b7bd4, #4a66b5); filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5b7bd4', endColorstr='#4a66b5'); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5b7bd4', endColorstr='#4a66b5')"; }
+#FBplusBadge.light .page-button iframe { -moz-box-shadow: 0px 0px 0px 2px #e7e7e7; -webkit-box-shadow: 0px 0px 0px 2px #e7e7e7; box-shadow: 0px 0px 0px 2px #e7e7e7; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#e7e7e7')"; filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#e7e7e7'); }
+#FBplusBadge.dark { background: #1d1d1d; }
+#FBplusBadge.dark .page-name a { color: #ffffff; }
+#FBplusBadge.dark .page-link { color: #606060; }
+#FBplusBadge.dark .page-about { color: #e5e5e5; }
+#FBplusBadge.dark .page-likes span { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEaSURBVHjahJI9S8NQFIZzY2JRyBChFAfBDxwEcVDcOrgIHfpT/G1ujv0BgovQQSmogygWTJAorVhz+7xwAhlivPBwbnPPOfd9z63z3gd/rTzPO4Qh7MMbXKVpOtVZGLSvXdiEa/iFTnUQtty2QjiGCYzB1c+jltuOYBtGsAoxJDRMiF8RG3Vdt9vV9QE2YADP8G6/VXgOM+W4LMsu2HzAJ3RhzXiFS4ZR0FzKElN4KDWRmR6R8ELCGfstuIEnvql7QFzItnnvEbzklTXjsSXcVUUNS1Z+mqbq/3miR6msChcW51IGB0jaA9dQKHsusmn2SPq2sesJdqzZhO+3xMLsaB4nGp4KVdCv/TPuTY4antoTlDUbmvh4KcAAjjpaxteTaxAAAAAASUVORK5CYII=); }
+#FBplusBadge.dark .page-button { border-color: transparent; }
