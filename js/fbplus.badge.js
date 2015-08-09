@@ -69,8 +69,9 @@ FBplus.prototype = {
   getFacebookData: function() {
     var d = document,
         s = d.createElement('script'),
-        f = ["id", "username", "name", "about", "mission", "cover", "picture", "link", "likes", "checkins", "talking_about_count"];
-    s.src = 'https://graph.facebook.com/' + this.udata.href + '?fields=' + f.join(",") + '&callback=FBcallback';
+        f = ["id", "username", "name", "about", "mission", "cover", "picture", "link", "likes", "checkins", "talking_about_count"],
+        t = 'CAAW5xZAWPC6MBABvKMiW7AztPHMnZAHBEmZALZCtR0dsx2MZAhRa0QHamvGS50XxL4BMsSd1AjiLoMyQeDTPTgRXeqcPul6bDf735K7FbuKRh1eS8UyYmOWG9Jttc73m98UUZCee3isbwHayKORTWsZAKOh18BDmggNvGh7tDU5RPEJMeg8cNVydCYNHvQDCgwZD';
+    s.src = 'https://graph.facebook.com/' + this.udata.href + '?fields=' + f.join(",") + '&access_token=' + t + '&callback=FBcallback';
     d.body.appendChild(s);
   },
   setFacebookData: function(json) {
