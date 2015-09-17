@@ -1,6 +1,9 @@
 # FBplus.badge
 Alternative facebook badge for pages.
 
+## Caution!
+Do not use the library on a live site. The library does not work properly. It is a consequence of changes in the facebook policy.
+
 ## Screenshots
 ![alt text](https://raw.githubusercontent.com/shtange/fbplus/master/screend.jpg "FBplus.badge screenshots (dark theme)")
 
