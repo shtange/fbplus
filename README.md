@@ -62,7 +62,7 @@ Google Chrome, Firefox, Safari, Opera, Internet Explorer 8+
 Demo version here [shtange.github.io/fbplus](http://shtange.github.io/fbplus/)
 
 ## Publications
-Review on Habr https://habrahabr.ru/post/249973/ (russian language)
+Review on [Habrahabr](https://habrahabr.ru/post/249973/) (russian language)
 
 ## License
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
